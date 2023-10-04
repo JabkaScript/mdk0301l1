@@ -1,4 +1,4 @@
-/* Текстовые константы под разные  */
+/* Текстовые константы под разные локали */
 
 const lang = {
   "zh-Hant": {
@@ -61,6 +61,18 @@ const lang = {
       swimfan: "Swimfan",
     },
   },
+  ru: {
+    name: "russian",
+    content: {
+      home: "Стартовая",
+      blog: "Блог",
+      image: "Галерея",
+      about: "Обо мне",
+      frontEnd: "Front-end разработчик",
+      photography: "Фотограф-энтузиаст",
+      swimfan: "Пловец",
+    },
+  },
   ko: {
     name: "한국어",
     content: {
@@ -73,6 +85,7 @@ const lang = {
       swimfan: "수영 애호가",
     },
   },
+
 };
 
 export default lang;

@@ -3,7 +3,7 @@
 import lang from "./lang";
 import create from "zustand";
 
-const defaultLangs = lang["zh-Hans"].content;
+const defaultLangs = lang["zh-Hant"].content;
 interface LangState {
   lang: typeof defaultLangs;
   set: (locale: string) => void;

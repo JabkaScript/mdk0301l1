@@ -5,7 +5,7 @@ const nextConfig = {
   swcMinify: true,
   i18n: {
     /* Настройки локали */
-    locales: ["zh-Hant", "zh-Hans", "en", "jp", "fr", "ko"],
+    locales: ["zh-Hant", "zh-Hans", "en", "jp", "fr", "ko", 'ru'],
     defaultLocale: "en",
   },
 };
